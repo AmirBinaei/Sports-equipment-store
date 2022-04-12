@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>shopping web</title>
+</head>
+<body>
+    <!--             header                 -->
+        <div class="container">
+
+            <div class="nav-bar">
+                <div class="logo">
+                    <img src="../images/logo.png" width="150px">
+                </div>
+            
+                <nav>
+                    <ul id="menu">
+                        <li><a href="../index.html">خانه</a></li>
+                        <li><a href="./products.html">محصولات</a></li>
+                        <li><a href="">درباره ما</a></li>
+                        <li><a href="">تماس باما</a></li>
+                        <li><a href="login.html">پنل کاربری</a></li>
+                    </ul>
+                    <a href="./cart-page.html"><img src="../images/cart.png" width="23px"></a>
+                    <img src="../images/menu.png" width="22px" onclick="opennav()" class="menu-icon">
+                </nav>
+    
+            </div>
+        </div>
+<!--                               logiin page                  -->
+
+<div class="login-page">
+    <div class="smal-container">
+        <div class="row login-row">
+            <div class="col-2">
+                <div class="form-container">
+                        <div class="f-container-text">
+                            <span onclick="loginnn()">ورود</span>
+                            <span onclick="reggg()">ثبت نام</span>
+                            <div id="boldi"></div>
+                        </div>
+                        <form id="loginform">
+                            <input type="text" placeholder="نام کاربری">
+                            <input type="password" placeholder="رمز عبور">
+                            <button class="single-btn form-btn">ورود </button>
+                            <p>رمز عبورمو یادمم نیس کیومرث !</p>
+                        </form>
+                        <form id="regform">
+                            <input type="text" placeholder="نام کاربری">
+                            <input type="password" placeholder="رمز عبور">
+                            <input type="password" placeholder="تکرار رمز عبور ">
+                            <button class="single-btn form-btn">صبت نام </button>
+                            <p> یه حساب  دارم کیومرث !</p>
+                        </form>
+                </div>
+            </div>
+
+            <div class="col-2 login-img">
+                <img src="../images/image1.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!--                            lfooter           --> 
+
+   <div class="footer">
+       <div class="container">
+           <div class="row row-foot">
+
+               <div class="footer-col1">
+                   <h3>برنامه ها</h3>
+                   <p>دانلود برنامه برای ios و android</p>
+                   <div class="app-logo">
+                       <img src="../images/app-store.png">
+                       <img src="../images/play-store.png">
+                   </div>
+               </div>
+
+               <div class="footer-col2">
+                <img src="../images/logo-white.png">
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و 
+                </p>
+               </div>
+
+               <div class="footer-col3">
+                <h3>لینک های مفید</h3>
+                <ul>
+                    <li>کوپن ها</li>
+                    <li>پست بلاگ</li>
+                    <li>سایت بازگشت</li>
+                    <li>عضویت وابسته</li>
+                </ul>
+               </div>
+               <div class="footer-col4">
+                <h3>راه ارتباطی</h3>
+                <ul>
+                    <li>شاد</li>
+                    <li>پام رسان سروش </li>
+                    <li>واتس اپ</li>
+                    <li>تلگرام</li>
+                </ul>
+               </div>
+
+           </div>
+       </div>
+   </div>
+<!--                 script code        -->
+
+<script type="text/javascript" src="../js/app.js"></script>
+<script type="text/javascript" src="../js/appp.js"></script>
+</body>
+</html>

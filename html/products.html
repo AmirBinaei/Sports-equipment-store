@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>shopping web</title>
+</head>
+<body>
+    <!--             header                 -->
+        <div class="container">
+
+            <div class="nav-bar">
+                <div class="logo">
+                    <img src="../images/logo.png" width="150px">
+                </div>
+            
+                <nav>
+                    <ul id="menu">
+                        <li><a href="../index.html">خانه</a></li>
+                        <li><a href="./products.html">محصولات</a></li>
+                        <li><a href="">درباره ما</a></li>
+                        <li><a href="">تماس باما</a></li>
+                        <li><a href="./login.html">پنل کاربری</a></li>
+                    </ul>
+                    <a href="./cart-page.html"><img src="../images/cart.png" width="23px"></a>
+                    <img src="../images/menu.png" width="22px" onclick="opennav()" class="menu-icon">
+                </nav>
+    
+            </div>
+        </div>
+
+    <!--             ax namyeshi                 -->
+
+    <div class="catugre">
+        <div class="smal-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="../images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="../images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="../images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--                        products             -->
+    <div class="smal-container">
+        <div class="products-title">
+            <h2>کل محصولات</h2>
+            <select>
+                <option>پیش فرض</option>
+                <option>کتونی</option>
+                <option>شلوار</option>
+                <option>تیشرت</option>
+            </select>
+        </div>
+        <div class="row row-products">
+
+            <div class="col-4" onclick="prosingle()">
+                <img src="../images/product-1.jpg" alt="">
+                <h4>تیشرت ورزشی قرمز</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>32,00$</p>
+            </div>
+
+            <div class="col-4">
+                <img src="../images/product-2.jpg" alt="">
+                <h4>کتونی ورزشی</h4>
+                <div class="rating">
+                    <i class="fa fa-star-half-alt"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>50,00$</p>
+            </div>
+
+            <div class="col-4">
+                <img src="../images/product-3.jpg" alt="">
+                <h4>کتونی ورزشی</h4>
+                <div class="rating">
+                    <i class="fa fa-star-half-alt"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>37,00$</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/product-4.jpg" alt="">
+                <h4>تیشرت ورزشی</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>48,00$</p>
+            </div>
+                <div class="col-4">
+                    <img src="../images/product-5.jpg" alt="">
+                    <h4>کتونی ورزشی</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>32,00$</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="../images/product-6.jpg" alt="">
+                    <h4>تیشرت ورزشی</h4>
+                    <div class="rating">
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>50,00$</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="../images/product-7.jpg" alt="">
+                    <h4>جوراب ورزشی</h4>
+                    <div class="rating">
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>37,00$</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-8.jpg" alt="">
+                    <h4>ساعت ورزشی</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>48,00$</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-9.jpg" alt="">
+                    <h4>جوراب ورزشی</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>32,00$</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="../images/product-10.jpg" alt="">
+                    <h4>کتونی ورزشی</h4>
+                    <div class="rating">
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>50,00$</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="../images/product-11.jpg" alt="">
+                    <h4>کتونی ورزشی</h4>
+                    <div class="rating">
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>37,00$</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-12.jpg" alt="">
+                    <h4>شلوار ورزشی</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>48,00$</p>
+                </div>
+            </div>
+            <div class="page-btn">
+                <span>&#8594</span>
+                <span>...</span>
+                <span>3</span>
+                <span>2</span>
+                <span>1</span>
+            </div>
+    </div>
+
+   <!--                            lfooter           --> 
+
+   <div class="footer">
+       <div class="container">
+           <div class="row row-foot">
+
+               <div class="footer-col1">
+                   <h3>برنامه ها</h3>
+                   <p>دانلود برنامه برای ios و android</p>
+                   <div class="app-logo">
+                       <img src="../images/app-store.png">
+                       <img src="../images/play-store.png">
+                   </div>
+               </div>
+
+               <div class="footer-col2">
+                <img src="../images/logo-white.png">
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و 
+                </p>
+               </div>
+
+               <div class="footer-col3">
+                <h3>لینک های مفید</h3>
+                <ul>
+                    <li>کوپن ها</li>
+                    <li>پست بلاگ</li>
+                    <li>سایت بازگشت</li>
+                    <li>عضویت وابسته</li>
+                </ul>
+               </div>
+               <div class="footer-col4">
+                <h3>راه ارتباطی</h3>
+                <ul>
+                    <li>شاد</li>
+                    <li>پام رسان سروش </li>
+                    <li>واتس اپ</li>
+                    <li>تلگرام</li>
+                </ul>
+               </div>
+
+           </div>
+       </div>
+   </div>
+<!--                 script code        -->
+
+<script type="text/javascript" src="../js/app.js"></script>
+</body>
+</html>

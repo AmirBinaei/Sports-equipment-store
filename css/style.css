@@ -1,0 +1,594 @@
+*{
+    padding: 0; margin: 0;
+    font-family: kara-reg; box-sizing: border-box;
+    direction: rtl;
+}
+
+/*             header               */
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    cursor: pointer;
+}
+.menu-icon{
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+    transition: color .3s;
+}
+nav ul li a:hover{
+    color: #ff523b;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+header{
+    background:radial-gradient(#fff, #ffd6d6);
+    width: 100%;
+    height: 100vh;
+}
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+}
+.col-2 h1{
+    font-size: kara-bol;
+    font-size: 3rem;
+}
+.col-2 img{
+    width: 100%;
+}
+.col-2 a{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 6px 20px;
+    background-color: #ff523b;
+    color: #fff;
+    border-radius: 2rem;
+    border: 1px solid #ff523b;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: kara-med;
+}
+.col-2 a:hover{
+    border: 1px solid #ff523b;
+    background-color: transparent;
+    color: #ff523b;
+}
+
+/*                 catugre                */
+
+.catugre{
+    margin: 70px 0;
+    width: 100%;
+}
+.smal-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-right: 25px ;
+    padding-left: 25px ;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+}
+.col-3 img{
+    width: 100%;
+}
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    margin: auto;
+    padding: 10px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.col-4:hover{
+    transform: translateY(-1.5%);
+
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin-bottom: 70px;
+    position: relative;
+}
+.title::after{
+    content: '';
+    width: 90px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #ff523b;
+    right: 50%;
+    bottom: -10%;
+    transform: translateX(50%);
+}
+.ket1{
+    margin: 70px 0;
+}
+/*                   offer          */
+
+.offer{
+    width: 100%;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.offer-contaienr{
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+    margin: 70px 0;
+}
+.offer-contaienr .col-2 img{
+    width: 75%;
+    margin-right: 30px;
+}
+
+/*                       testiimaol          */
+
+.ket2{
+    color: #ff523b;
+    font-family: kara-med;
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.1) 0 0 20px 0;
+    border-radius: 2px;
+    padding: 30px 20px;
+    margin: 5px auto;
+    cursor: pointer;
+    transition: all .3s;
+}
+.ket2:hover{
+    transform: translateY(-1.5%);
+}
+
+.ket2 h5{
+    color: #555;
+    text-align: center;
+}
+
+.ket2 img{
+    width: 85px;
+    height: 85px;
+    border-radius: 85px;
+    margin: 1rem 0 .2rem;
+}
+.ket2 .fa-quote-left{
+    font-size: 3.5rem;
+}
+.ket2 p{
+    margin: 1rem 0;
+}
+.pket2{
+    margin-bottom: 70px;
+}
+
+/*                      logo brand            */
+
+.brands{
+    margin: 70px 0;
+}
+.brands .row{
+    justify-content: space-between;
+
+}
+.col-5{
+    width: 160px;
+    margin: auto;
+}
+.col-5 img{
+    width: 100%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all .3s;
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+/*                      footerr            */
+
+.footer{
+    background-color: #000;
+    color: #8a8a8a;
+    font-size: 13px;
+    padding: 60px 0 20px;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col1, .footer-col2, .footer-col3, .footer-col4{
+    min-width: 250px;
+    max-width: 250px;
+    margin: 10px auto 20px;
+}
+.footer-col1{
+    flex-basis: 30%;
+    text-align: center;
+}
+.footer-col2{
+    text-align: center;
+}
+.footer-col2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col3, .footer-col4{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 160px;
+    cursor: pointer;
+}
+.row-foot{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*                     page products           */
+
+.row-products{
+    margin: 0px auto 70px;
+}
+.products-title{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.products-title select{
+    border: 1px solid #555;
+    border-radius: 2.5px;
+    outline: none;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.products-title select option{
+    cursor: pointer;
+}
+.page-btn{
+    padding: 20px;
+}
+.page-btn span{
+    padding: 2px 10px;
+    border: 1px solid #ff523b;
+    cursor: pointer;
+    margin: 0 2px;
+}
+/*                     single products           */
+
+.pro{
+    padding: 20px;
+}
+.row-sigle{
+    margin: 70px auto;
+}
+.single-col{
+    padding: 20px;
+}
+.single-col h1{
+    font-weight: 50;
+    line-height: 65px;
+}
+.single-col p{
+    margin: 15px auto 20px;
+}
+.single-col input{
+    width: 45px;
+}
+.single-col input:focus{
+    outline: none;
+}
+.single-btn{
+    height: 27px;
+    margin: 2rem 0 2rem .5rem;
+    padding: 0 15px;
+    background-color: #ff523b;
+    color: #fff;
+    border-radius: .5rem;
+    border: 1px solid #ff523b;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: kara-med;
+}
+.single-btn:hover{
+    background-color: transparent;
+    color: #ff523b;
+}
+.container-single-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container-single-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto 0;
+}
+.single-img{
+    flex-basis: 24%;
+}
+.single-img img{
+    width: 100%;
+    cursor: pointer;
+}
+/*                     cart page           */
+
+.cart-page{
+    width: 100%;
+    margin: 80px auto;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart-info img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+.cart-info a{
+    color: #ff523b;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+}
+th{
+    text-align: right;
+    color: #fff;
+    background-color: #ff523b;
+    padding: 5px 0;
+}
+
+/*                     login page           */
+.login-page{
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background:radial-gradient(#fff, #ffd6d6);
+}
+.login-row{
+    align-items: center;
+}
+.form-container{
+    padding: 20px;
+    width: 340px;
+    height: 440px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.1) 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.f-container-text{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: all 1s;
+}
+.f-container-text span{
+    cursor: pointer;
+    width: 55px;
+    text-align: center;
+}
+.f-container-text #boldi{
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background-color: #ff523b;
+    left: 0;
+    top: 97%;
+
+    
+}
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: 80px 0;
+    transition: all 1s;
+}
+form input{
+    margin: 5px 0;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+form p{
+    text-align: center;
+    cursor: pointer;
+}
+.form-btn{
+    width: 300px;
+    height: 37px;
+    margin: 2rem 0;
+}
+#loginform{
+    left: -320px;
+}
+#regform{
+    left: 20px;
+}
+/*           media query                 */
+
+
+
+@media only screen and ( max-width:768px) {
+    nav ul{
+        position: absolute;
+        background-color: #000;
+        width: 100%;
+        top: 85px;
+        right: 0;
+        padding: 10px 50px 10px 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: flex-start;  
+        z-index: 11;
+        margin-top: 0;
+
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        margin: 5px 5px 0 0;
+    }
+    nav img{
+        margin-top: 10px;
+    }
+    .products-title select{
+        padding: 0;
+    }
+    .row-sigle{
+        flex-direction: column;
+    }
+    .container-single-box{
+        width: 100%;
+    }
+    .single-col{
+        width: 100%;
+    }
+    .login-page{
+        width: 100%;
+    }
+    .login-row{
+        justify-content: center;
+        width: 100%;
+    }
+    .login-row .login-img{
+        display: none;
+    }
+    header{
+        height: auto;
+    }
+    .col-2 a{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media only screen and (max-width:586px){
+    .header{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .ket10{
+        width: 50%;
+    }
+    .col-2 h1{
+        font-size: 1.4rem;
+    }
+    .single-col h1{
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+    .col-2 a{
+        margin-top: 1rem;
+    }
+    .footer-col2{
+        max-width: 250px;
+    }
+    .offer-contaienr{
+        flex-direction: column-reverse;
+    }
+    .login-row{
+        align-items: center;
+    }
+    .form-container{
+        padding: 10px;
+    }
+}
+
+
+
+/*          font ha        */
+@font-face {
+    font-family: kara-med;
+    src: url(../SG.Kara_YasDL.com/SGKara-Light.ttf);
+}
+@font-face {
+    font-family: kara-reg;
+    src: url(../SG.Kara_YasDL.com/SGKara-Regular.ttf);
+}
+@font-face {
+    font-family: kara-bol;
+    src: url(../SG.Kara_YasDL.com/SGKara-SemiBold.ttf);
+}
