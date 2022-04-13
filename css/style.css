@@ -3,7 +3,19 @@
     font-family: kara-reg; box-sizing: border-box;
     direction: rtl;
 }
-
+/*          font ha        */
+@font-face {
+    font-family: kara-med;
+    src: url(../SG.Kara_YasDL.com/SGKara-Light.ttf);
+}
+@font-face {
+    font-family: kara-reg;
+    src: url(../SG.Kara_YasDL.com/SGKara-Regular.ttf);
+}
+@font-face {
+    font-family: kara-bol;
+    src: url(../SG.Kara_YasDL.com/SGKara-SemiBold.ttf);
+}
 /*             header               */
 
 .nav-bar{
@@ -575,20 +587,4 @@ form p{
     .form-container{
         padding: 10px;
     }
-}
-
-
-
-/*          font ha        */
-@font-face {
-    font-family: kara-med;
-    src: url(../SG.Kara_YasDL.com/SGKara-Light.ttf);
-}
-@font-face {
-    font-family: kara-reg;
-    src: url(../SG.Kara_YasDL.com/SGKara-Regular.ttf);
-}
-@font-face {
-    font-family: kara-bol;
-    src: url(../SG.Kara_YasDL.com/SGKara-SemiBold.ttf);
 }
